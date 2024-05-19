@@ -1,0 +1,217 @@
+*{
+        font-family: 'Merriweather', serif;
+        }
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f3f3f3;
+        }
+        :is(p, span, div) {
+    font-family: 'Roboto', sans-serif;
+    /* Additional styles for numbers */
+}
+a{
+    text-decoration: none;
+}
+/* Custom CSS for the cart section */
+.cart-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.cart-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cart-item-price {
+    font-size: 16px;
+    color: #555;
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.checkout-btn {
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .cart-item img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .cart-item-name {
+        font-size: 16px;
+    }
+
+    .cart-item-price {
+        font-size: 14px;
+    }
+
+    .checkout-btn {
+        font-size: 16px;
+    }
+}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .ShoppingCart {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .line-div {
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 20px;
+        }
+
+        .product-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .product-info img {
+            width: 500px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .product-details {
+            flex-grow: 1;
+        }
+
+        .product-name {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 1.2rem;
+            color: #b12704;
+            margin-bottom: 10px;
+        }
+
+        .product-offers {
+            color: #007600;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .btn-add-to-cart {
+            background-color: #f0c14b;
+            border-color: #a88734;
+            color: #111;
+        }
+
+        .btn-add-to-cart:hover {
+            background-color: #ddb347;
+            border-color: #a88734;
+            color: #111;
+        }
+
+        .carousel-item {
+            text-align: center;
+        }
+
+        .carousel-caption {
+            background-color: #f0f0f0;
+            padding: 10px;
+            color: #333;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #333;
+        }
+
+        .carousel-control-prev-icon::before,
+        .carousel-control-next-icon::before {
+            color: #fff;
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: #232f3e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .message-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.message-icon {
+    margin-bottom: 20px;
+}
+
+.message-icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.message-text p {
+    margin-bottom: 10px;
+}
+
+.message-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.message-text a:hover {
+    text-decoration: underline;
+}
